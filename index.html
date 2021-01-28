@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Ahora si empezo lo bueno!">
+    <meta charset="UTF-8">
+    <title>Práctica con Bootstrap</title>
+
+    <!--Link para Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Link para estilos-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-color">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-light" href="#">
+                <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M18 6.615v1.45c0 .34-.275.616-.616.616h-1.449c-.341 0-.615-.276-.615-.616v-1.45c0-.34.274-.615.615-.615h1.449c.341 0 .616.275.616.615zm-1.131 4.699c.033.225.054.453.054.686 0 2.72-2.204 4.923-4.922 4.923s-4.923-2.204-4.923-4.923c0-.233.021-.461.054-.686.031-.221.075-.437.134-.647h-1.266v6.719c0 .339.275.614.616.614h10.769c.34 0 .615-.275.615-.615v-6.719h-1.265c.058.211.102.427.134.648zm-4.869 3.763c1.699 0 3.078-1.378 3.078-3.077s-1.379-3.077-3.078-3.077-3.077 1.377-3.077 3.077 1.378 3.077 3.077 3.077zm12-15.077v24h-24v-24h24zm-4 5.846c0-1.019-.826-1.846-1.846-1.846h-12.308c-1.019 0-1.846.827-1.846 1.846v12.307c0 1.02.827 1.847 1.846 1.847h12.309c1.019 0 1.845-.827 1.845-1.847v-12.307z" />
+                </svg>
+                Instagram</a>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu text-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <section class="row">
+                    <article class="col-lg-6 offset-lg-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://img.youtube.com/vi/p4Q3uh2RaZo/maxresdefault.jpg" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="row">
+                    <article class="col-lg-6 offset-lg-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://img.youtube.com/vi/p4Q3uh2RaZo/maxresdefault.jpg" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="row">
+                    <article class="col-md-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQOcXXDma7AE5YRa_kDP_zc2zCS-644sPHQ&usqp=CAU" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+
+                    </article>
+                    <article class="col-sm-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_768/fl_lossy,pg_1/cuvkoyxqvxdxzivzcxf0/nfs-heat-launch" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-6">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_768/fl_lossy,pg_1/cuvkoyxqvxdxzivzcxf0/nfs-heat-launch" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-6">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_768/fl_lossy,pg_1/cuvkoyxqvxdxzivzcxf0/nfs-heat-launch" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_768/fl_lossy,pg_1/cuvkoyxqvxdxzivzcxf0/nfs-heat-launch" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-3">
+                        <div class="">
+                            <div class="card-body">
+                                <h4 class="card-text text-light">This image is in the middle</h4>
+                            </div>
+                            <img src="https://img.youtube.com/vi/p4Q3uh2RaZo/maxresdefault.jpg" alt="Card image">
+                            <div class="card-body">
+                                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facilis dolorum fugit autem consectetur nam expedita, iure voluptatum!</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+    <!--Links de Script para Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body></html>
