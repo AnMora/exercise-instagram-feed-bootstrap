@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+.logo{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
